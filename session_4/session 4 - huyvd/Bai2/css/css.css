@@ -1,0 +1,52 @@
+body {
+	margin:auto;
+}
+
+
+#header {
+	background:yellow;
+	height: 150px;
+	width: auto;
+
+}
+
+#main {
+	background:yellow;
+	height: 600px;
+	width: auto;
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+
+#footer {
+	background:yellow;
+	height: 150px;
+	width: auto;
+
+
+}
+
+#main .main_left {
+	background:yellow;
+	height: 600px;
+	width: 20%;
+	float:left;
+	outline: 10px solid white;
+}
+
+#main .main_middle {
+	background:yellow;
+	height: 600px;
+	width: 60%;
+	float:left;
+	outline: 10px solid white;
+
+}
+
+#main .main_right {
+	background:yellow;
+	height: 600px;
+	width: 20%;
+	float:right;
+	outline: 10px solid white;
+}

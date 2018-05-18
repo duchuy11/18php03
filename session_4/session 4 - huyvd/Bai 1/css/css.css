@@ -1,0 +1,96 @@
+body {
+}
+
+#header {
+	height: 200px;
+	width: 900px;
+	background:white;
+	margin:auto;
+	border: solid 1px black;
+}
+
+#header .header_title {
+	height: 50px;
+	width: 900px;
+	background:blue;
+	font-weight: bolder;
+	font-size: 20px;
+	color:white;
+	line-height: 50px;
+	text-indent: 25px;
+}
+
+#body {
+	height: 600px;
+	width: 900px;
+	background: white;
+	margin:auto;
+	margin-top:10px;
+	border: solid 1px black;
+}
+
+#body .body_left {
+	width: 25%;
+	height: 587px;
+	background:white;
+	float:left;
+	border: solid 1px black;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+#body .body_left .body_left_title {
+	height: 50px;
+	width: auto;
+	background:blue;
+	font-weight: bolder;
+	font-size: 20px;
+	color:white;
+	line-height: 50px;
+	text-indent: 25px;
+
+}
+
+#body .body_middle {
+	width: 50%;
+	height: 587px;
+	background:white;
+	float:left;
+	border: solid 1px black;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+#body .body_middle .body_middle_title {
+	height: 50px;
+	width: auto;
+	background:blue;
+	font-weight: bolder;
+	font-size: 20px;
+	color:white;
+	line-height: 50px;
+	text-indent: 25px;
+
+}
+
+#body .body_right {
+	width: 22%;
+	height: 290px;
+	background:white;
+	float:left;
+	border: solid 1px black;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+#body .body_right .body_right_title {
+	height: 50px;
+	width: auto;
+	background:blue;
+	font-weight: bolder;
+	font-size: 20px;
+	color:white;
+	line-height: 50px;
+	text-indent: 25px;
+
+}
