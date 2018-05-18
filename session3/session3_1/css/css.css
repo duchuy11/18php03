@@ -1,0 +1,33 @@
+@font-face {
+	font-family: myphpfont;
+	src: url(AguafinaScript-Regular.tff);
+}
+
+body {
+	margin:auto;
+}
+
+#body {
+	height: 500px;
+	width: 500px;
+}
+
+#body p.text {
+	font-size:60px;
+	font-family: myphpfont;
+	text-shadow: 10px 10px 10px red;
+}
+
+#body .box {
+	width: 100px;
+	height: 100px;
+	background: black;
+	float:left;
+}
+
+#body p.text2{
+	width: 300px;
+	height: 100px;
+	float:right;
+
+}

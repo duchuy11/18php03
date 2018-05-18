@@ -1,0 +1,30 @@
+body {
+	padding-top: 50px;
+	width: auto;
+	height: 1200px;
+	margin: auto;
+	background: url("../images/3.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.info {
+	width: 350px;
+	height: 425px;
+	border-style: dotted;
+	border-radius: 40px;
+	border-color: black;
+	background:0;
+}
+
+#info_2 {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: black;
+	text-align: center;
+}
+
+#info_avatar {
+	width: 65%;
+	height: 65%;
+}
