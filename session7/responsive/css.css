@@ -1,0 +1,579 @@
+body {
+	margin:auto;
+}
+
+@media only screen and (max-width: 1920px) {
+
+#Header {
+	height: 100px;
+	width: 1024px;
+	background:gray;
+	margin:auto;
+}
+
+.Header_title {
+	line-height: 30px;
+	text-indent: 20px;
+	font-weight: bold;
+}
+
+.Brand {
+	height: 50px;
+	width: 17%;
+	background:red;
+	float:left;
+	margin-top:10px;
+	margin-left:20px;
+	text-align: center;
+	line-height: 50px;
+	font-weight: bold;
+}
+
+.GlobalNav {
+	height: 50px;
+	width: 57%;
+	background:red;
+	float:left;
+	margin-top:10px;
+	margin-left:20px;
+	text-align: center;
+	line-height: 50px;
+	font-weight: bold;
+}
+
+.Tools {
+	height: 50px;
+	width: 17%;
+	background:red;
+	float:left;
+	margin-top:10px;
+	margin-left:20px;
+	text-align: center;
+	line-height: 50px;
+	font-weight: bold;
+}
+
+#Body {
+	width: 1024px;
+	height: 650px;
+	margin:auto;
+	margin-top:10px;
+}
+
+
+.Hero {
+	width: 700px;
+	height: 150px;
+	background:gray;
+	margin:auto;
+	float:left;
+	margin:10px;
+}
+
+.Hero_title {
+	line-height: 30px;
+	text-indent: 20px;
+	font-weight: bold;
+}
+
+.HeroFeature {
+	width: 57%;
+	height: 100px;
+	background:red;
+	margin-top:10px;
+	margin-left: 15px;
+	float:left;
+	text-align: center;
+	line-height: 100px;
+	font-weight: bold;
+}
+
+.HeroCallToAction {
+	width: 37%;
+	height: 100px;
+	background:red;
+	margin-top:10px;
+	margin-left: 15px;
+	float:left;
+	text-align: center;
+	line-height: 100px;
+	font-weight: bold;
+}
+
+.Ad {
+	width: 283px;
+	height: 150px;
+	background:gray;
+	float:left;
+	margin:10px;
+	text-align: center;
+	line-height: 150px;
+	font-weight: bold;
+}
+
+.Ad_768 {
+	position: absolute;
+	opacity: 0;
+}
+
+.Article {
+	width: 700px;
+	height: 450px;
+	background:gray;
+	margin:10px;
+	float:left;
+}
+
+.Body_title {
+	line-height: 30px;
+	text-indent: 20px;
+	font-weight: bold;
+}
+
+.ArticleFeature {
+	width: 57%;
+	height: 400px;
+	background:red;
+	float:left;
+	margin:10px;
+	margin-top:10px;
+	text-align: center;
+	line-height: 400px;
+	font-weight: bold;
+}
+
+.ArticleListing {
+	width: 37%;
+	height: 400px;
+	background:red;
+	float:left;
+	margin:10px;
+	margin-top:10px;
+	text-align: center;
+	line-height: 400px;
+	font-weight: bold;
+}
+
+.Sidebar {
+	width: 283px;
+	height: 450px;
+	float:left;
+	background:gray;
+	margin:10px;
+}
+
+.Sidebar_title {
+	line-height: 30px;
+	text-indent: 20px;
+	font-weight: bold;
+}
+
+.SidebarFeature {
+	width: 263px;
+	height: 400px;
+	background:red;
+	margin:10px;
+	margin-top:10px;
+	text-align: center;
+	line-height: 400px;
+	font-weight: bold;
+}
+
+#Footer {
+	height: 100px;
+	width: 1024px;
+	background:gray;
+	margin:auto;
+	text-align: center;
+	line-height: 100px;
+	font-weight: bold;
+}
+
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+#Header {
+	height: 100px;
+	width: auto;
+	background:gray;
+	margin:auto;
+}
+
+.Header_title {
+	line-height: 30px;
+	text-indent: 20px;
+	font-weight: bold;
+}
+
+.Brand {
+	height: 50px;
+	width: 17%;
+	background:red;
+	float:left;
+	margin-top:10px;
+	margin-left:20px;
+	text-align: center;
+	line-height: 50px;
+	font-weight: bold;
+}
+
+.GlobalNav {
+	height: 50px;
+	width: 57%;
+	background:red;
+	float:left;
+	margin-top:10px;
+	margin-left:20px;
+	text-align: center;
+	line-height: 50px;
+	font-weight: bold;
+}
+
+.Tools {
+	height: 50px;
+	width: 17%;
+	background:red;
+	float:left;
+	margin-top:10px;
+	margin-left:20px;
+	text-align: center;
+	line-height: 50px;
+	font-weight: bold;
+}
+
+#Body {
+	width: 100%;
+	height: 650px;
+	margin:auto;
+	margin-top:10px;
+}
+
+
+.Hero {
+	width: 100%;
+	height: 150px;
+	background:gray;
+	margin:auto;
+}
+
+.Hero_title {
+	line-height: 30px;
+	text-indent: 20px;
+	font-weight: bold;
+}
+
+.HeroFeature {
+	width: 96%;
+	height: 45px;
+	background:red;
+	margin-top:10px;
+	margin-left: 15px;
+	text-align: center;
+	line-height: 45px;
+	font-weight: bold;
+}	
+
+.HeroCallToAction {
+	width: 96%;
+	height: 45px;
+	background:red;
+	margin-top:10px;
+	margin-left: 15px;
+	text-align: center;
+	line-height: 45px;
+	font-weight: bold;
+}
+
+.Ad {
+	width: 0;
+	height: 0;
+	background:gray;
+	float:left;
+	margin:5px;
+	text-align: center;
+	line-height: 150px;
+	font-weight: bold;
+}
+
+.Article {
+	width: 100%;
+	height: 420px;
+	background:gray;
+	float:left;
+	margin:0px;
+}
+
+.Body_title {
+	line-height: 30px;
+	text-indent: 20px;
+	font-weight: bold;
+}
+
+.ArticleFeature {
+	width: 69%;
+	height: 100px;
+	background:red;
+	margin:10px;
+	margin-top:10px;
+	text-align: center;
+	line-height: 100px;
+	font-weight: bold;
+	float:left;
+}
+
+.Ad_768 {
+	width: 25%;
+	height: 100px;
+	background:red;
+	margin:10px;
+	margin-top:10px;
+	text-align: center;
+	line-height: 100px;
+	font-weight: bold;
+	float:right;
+	opacity: 1;
+	position: 0;
+	margin-left:73%;
+}
+
+.ArticleListing {
+	width: 98%;
+	height: 250px;
+	background:red;
+	margin:10px;
+	margin-top:10px;
+	text-align: center;
+	line-height: 250px;
+	font-weight: bold;
+}
+
+.Sidebar {
+	width: 100%;
+	height: 150px;
+	float:left;
+	background:gray;
+	margin:0;
+	margin-top:10px;
+}
+
+.Sidebar_title {
+	line-height: 30px;
+	text-indent: 20px;
+	font-weight: bold;
+}
+
+.SidebarFeature {
+	width: 98%;
+	height: 100px;
+	background:red;
+	margin:10px;
+	margin-top:10px;
+	text-align: center;
+	line-height: 100px;
+	font-weight: bold;
+}
+
+#Footer {
+	height: 70px;
+	width: 1024px;
+	background:gray;
+	margin-top:100px;
+	text-align: center;
+	line-height: 70px;
+	font-weight: bold;
+}
+
+}
+
+@media only screen and (max-width: 768px) {
+
+#Header {
+	height: 110px;
+	width: auto;
+	background:gray;
+	margin:auto;
+}
+
+.Header_title {
+	line-height: 30px;
+	text-indent: 20px;
+	font-weight: bold;
+}
+
+.Brand {
+	height: 25px;
+	width: 96%;
+	background:red;
+	margin-top:10px;
+	margin-left:10px;
+	text-align: center;
+	line-height: 25px;
+	font-weight: bold;
+}
+
+.GlobalNav {
+	height: 25px;
+	width: 46%;
+	background:red;
+	float:right;
+	margin-top:10px;
+	margin-right:18px;
+	text-align: center;
+	line-height: 25px;
+	font-weight: bold;
+}
+
+.Tools {
+	height: 25px;
+	width: 46%;
+	background:red;
+	float:left;
+	margin-top:10px;
+	margin-left:10px;
+	text-align: center;
+	line-height: 25px;
+	font-weight: bold;
+}
+
+#Body {
+	width: 100%;
+	height: 255px;
+	margin:auto;
+	margin-top:10px;
+}
+
+
+.Hero {
+	width: 100%;
+	height: 75px;
+	background:gray;
+	margin:auto;
+}
+
+.Hero_title {
+	line-height: 30px;
+	text-indent: 20px;
+	font-weight: bold;
+}
+
+.HeroFeature {
+	width: 96%;
+	height: 45px;
+	background:red;
+	margin-top:10px;
+	margin-left: 15px;
+	text-align: center;
+	line-height: 45px;
+	font-weight: bold;
+	opacity: 0;
+	position: absolute;
+}	
+
+.HeroCallToAction {
+	width: 96%;
+	height: 25px;
+	background:red;
+	margin-top:10px;
+	text-align: center;
+	line-height: 25px;
+	font-weight: bold;
+}
+
+.Ad {
+	width: 0;
+	height: 0;
+	background:gray;
+	float:left;
+	margin:5px;
+	text-align: center;
+	line-height: 150px;
+	font-weight: bold;
+}
+
+.Article {
+	width: 100%;
+	height: 260px;
+	background:gray;
+	float:left;
+	margin:0px;
+}
+
+.Body_title {
+	line-height: 30px;
+	text-indent: 20px;
+	font-weight: bold;
+}
+
+.ArticleFeature {
+	width: 96%;
+	height: 40px;
+	background:red;
+	margin:10px;
+	text-align: center;
+	line-height: 40px;
+	font-weight: bold;
+}
+
+.Ad_768 {
+	width: 96%;
+	height: 40px;
+	background:orange;
+	margin:10px;
+	text-align: center;
+	line-height: 40px;
+	font-weight: bold;
+	opacity: 1;
+	position: relative;
+}
+
+.ArticleListing {
+	width: 96%;
+	height: 90px;
+	background:red;
+	margin:10px;
+	text-align: center;
+	line-height: 90px;
+	font-weight: bold;
+}
+
+.Sidebar {
+	width: 100%;
+	height: 150px;
+	float:left;
+	background:gray;
+	margin:0;
+	margin-top:10px;
+	opacity: 0;
+	position: absolute;
+}
+
+.Sidebar_title {
+	line-height: 30px;
+	text-indent: 20px;
+	font-weight: bold;
+}
+
+.SidebarFeature {
+	width: 98%;
+	height: 100px;
+	background:red;
+	margin:10px;
+	margin-top:10px;
+	text-align: center;
+	line-height: 100px;
+	font-weight: bold;
+}
+
+#Footer {
+	height: 70px;
+	width: 100%;
+	background:gray;
+	margin-top:100px;
+	text-align: center;
+	line-height: 70px;
+	font-weight: bold;
+}
+
+}
