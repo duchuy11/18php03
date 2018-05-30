@@ -1,0 +1,457 @@
+body { 
+	background-color: #A567D5;
+	margin: auto;
+	font-family: Roboto
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url("fonts/1.ttf");
+}
+
+#header {
+	width: 1024px;
+	height: 200px;
+	margin:auto;
+}
+
+#header .logo {
+	width: 1024px;
+	height: 200px;
+	background:url(../images/logo.png);
+	background-repeat: no-repeat;
+	background-position: 30px;
+	position: absolute;
+
+}
+
+#header .background_header {
+	width: 1024px;
+	height: 200px;
+	background:url(../images/background_header.jpg);
+	background-repeat: no-repeat;
+	background-position-y:-300px;
+
+}
+
+#menu {
+	margin:auto;
+	width: 1024px;
+}
+
+ul {
+	list-style-type: none;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+ul li {
+	float:left;
+	height: 50px;
+	width: 25%;
+	background:#660BAB;
+	text-align: center;
+}
+
+ul li a {
+	text-decoration: none;
+	line-height: 50px;
+	display: block;
+	font-weight: bold;
+	color:white;
+	font-size:12px;
+}
+
+ul li a:hover {
+	background:white;
+	color:#660BAB;
+	font-size:25px;
+}
+
+#body {
+	width: 1024px;
+	height: 800px;
+	background:#4F0885;
+	margin:auto;
+	margin-top:50px;
+}
+
+.body_left {
+	width: 70%;
+	height: auto;
+	background:#4F0885;
+	float:left;
+}
+
+.body_right {
+	width: 30%;
+	height: 100%;
+	background:#40056D;
+	float:right;
+}
+
+.body_left_content {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.body_left_title1 {
+	color: white;
+	font-size: 60px;
+	text-align: center;
+}
+
+.body_left_title2 {
+	color: white;
+	font-size: 23px;
+}
+
+img {
+	width: 300px;
+	height: 140px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.body_left_text {
+	margin-top:10px;
+	color:white;
+	width: 600px;
+	padding-left: 60px;
+	text-indent: 30px;
+	text-align: justify;
+}
+
+
+.body_right_bridge_list {
+	list-style-type: none;
+}
+
+.bridge1 {
+	width: 250px;
+	height: 100px;
+	background:url(../images/bridge1.jpg);
+	background-size:250px 140px;
+	line-height: 100px;
+	text-align: center;
+	margin-top:11%;
+	margin-left:10%;
+	font-weight: bold;
+	color:white;
+}
+
+.bridge2 {
+	width: 250px;
+	height: 100px;
+	background:url(../images/bridge2.jpg);
+	background-size:250px 150px;
+	background-position-y:-20px;
+	line-height: 100px;
+	text-align: center;
+	margin-top:11%;
+	margin-left:10%;
+	font-weight: bold;
+	color:white;
+}
+
+.bridge3 {
+	width: 250px;
+	height: 100px;
+	background:url(../images/bridge3.jpg);
+	background-size:250px 120px;
+	background-position-y:-15px;
+	line-height: 100px;
+	text-align: center;
+	margin-top:11%;
+	margin-left:10%;
+	font-weight: bold;
+	color:white;
+}
+
+.bridge4 {
+	width: 250px;
+	height: 100px;
+	background:url(../images/bridge4.jpg);
+	background-size:250px 120px;
+	line-height: 100px;
+	text-align: center;
+	margin-top:11%;
+	margin-left:10%;
+	font-weight: bold;
+	color:white;
+}
+
+.bridge5 {
+	width: 250px;
+	height: 100px;
+	background:url(../images/bridge5.jpg);
+	background-size:250px 120px;
+	background-position-y:-10px;
+	line-height: 100px;
+	text-align: center;
+	margin-top:11%;
+	margin-left:10%;
+	font-weight: bold;
+	color:white;
+}
+
+a.a_bridge {
+	text-decoration: none;
+	color:white;
+	display: block;
+}
+
+a.a_bridge:hover {
+	border: 2px white solid;
+}
+
+#footer {
+	width: 1024px;
+	height: 130px;
+	background:#660BAB;
+	margin:auto;
+}
+
+.footer_content {
+	padding-top:20px;
+	padding-left:60px;
+}
+
+.footer_text {
+	color:white;
+	font-weight: bold;
+}
+
+span {
+	font-style: italic;
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+@media screen and (max-width: 768px) { 
+#header {
+	width: 100%;
+	height: 200px;
+	margin:auto;
+}
+
+#header .logo {
+	width: 100%;
+	height: 200px;
+	background:url(../images/logo.png);
+	background-repeat: no-repeat;
+	background-position: 30px;
+	position: absolute;
+
+}
+
+#header .background_header {
+	width: 1024px;
+	height: 200px;
+	background:url(../images/background_header.jpg);
+	background-repeat: no-repeat;
+	background-position-y:-300px;
+
+}
+
+#menu {
+	margin:auto;
+	width: 100%;
+}
+
+ul {
+	list-style-type: none;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+ul li {
+	float:left;
+	height: 50px;
+	width: 25%;
+	background:#660BAB;
+	text-align: center;
+}
+
+ul li a {
+	text-decoration: none;
+	line-height: 50px;
+	display: block;
+	font-weight: bold;
+	color:white;
+	font-size:12px;
+}
+
+ul li a:hover {
+	background:white;
+	color:#660BAB;
+	font-size:25px;
+}
+
+#body {
+	width: 100%;
+	height: auto;
+	background:gray;
+	margin:auto;
+	margin-top:50px;
+}
+
+.body_left {
+	width: 100%;
+	height: 100%;
+	background:#4F0885;
+	padding-bottom: 20px;
+}
+
+.body_right {
+	width: 100%;
+	height: 100%;
+	background:#40056D;
+	padding-bottom: 170px;
+}
+
+.body_left_content {
+	margin-top: 20px;
+	text-align: center;
+	padding: 60px;
+}
+
+.body_left_title1 {
+	color: white;
+	font-size: 30px;
+	text-align: center;
+}
+
+.body_left_title2 {
+	color: white;
+	font-size: 17px;
+}
+
+img {
+	width: 300px;
+	height: 140px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.body_left_text {
+	margin-top:10px;
+	color:white;
+	width: 100%;
+	padding-left:0;
+	text-indent: 30px;
+	text-align: justify;
+}
+
+
+.body_right_bridge_list {
+	list-style-type: none;
+}
+
+.bridge1 {
+	width: 250px;
+	height: 100px;
+	background:url(../images/bridge1.jpg);
+	background-size:250px 140px;
+	line-height: 100px;
+	text-align: center;
+	margin:auto;
+	margin-top:20px;
+	font-weight: bold;
+	color:white;
+}
+
+.bridge2 {
+	width: 250px;
+	height: 100px;
+	background:url(../images/bridge2.jpg);
+	background-size:250px 150px;
+	background-position-y:-20px;
+	line-height: 100px;
+	text-align: center;
+	margin:auto;
+	margin-top:20px;
+	font-weight: bold;
+	color:white;
+}
+
+.bridge3 {
+	width: 250px;
+	height: 100px;
+	background:url(../images/bridge3.jpg);
+	background-size:250px 120px;
+	background-position-y:-15px;
+	line-height: 100px;
+	text-align: center;
+	margin:auto;
+	margin-top:20px;
+	font-weight: bold;
+	color:white;
+}
+
+.bridge4 {
+	width: 250px;
+	height: 100px;
+	background:url(../images/bridge4.jpg);
+	background-size:250px 120px;
+	line-height: 100px;
+	text-align: center;
+	margin:auto;
+	margin-top:20px;
+	font-weight: bold;
+	color:white;
+}
+
+.bridge5 {
+	width: 250px;
+	height: 100px;
+	background:url(../images/bridge5.jpg);
+	background-size:250px 120px;
+	background-position-y:-10px;
+	line-height: 100px;
+	text-align: center;
+	margin:auto;
+	margin-top:20px;
+	font-weight: bold;
+	color:white;
+}
+
+a.a_bridge {
+	text-decoration: none;
+	color:white;
+	display: block;
+}
+
+a.a_bridge:hover {
+	border: 2px white solid;
+}
+
+#footer {
+	width: 100%;
+	height: 150px;
+	background:#660BAB;
+	margin:auto;
+	position: fixed;
+	bottom: 0;
+}
+
+.footer_content {
+	padding: 60px;
+	padding-top: 30px;
+	text-align: justify;
+}
+
+.footer_text {
+	color:white;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+span {
+	font-style: italic;
+}
+}
