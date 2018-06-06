@@ -1,0 +1,190 @@
+#body {
+	width: auto;
+	height: 800px;
+	background:linear-gradient(white,#dfe3ee);
+}
+
+.body1 {
+	width: 1500px;
+	height: 800px;
+	margin:auto;
+}
+
+.body_left {
+	height: 800px;
+	width: 50%;
+	float:left;
+}
+
+.body_right {
+	height: 700px;
+	width: 50%;
+	float:left;
+}
+
+.body_left > .body_text {
+	margin-top:30px;
+	font-size: 27px;
+	font-family: arial;
+	color:#3b5998;
+	font-weight: bold;
+}
+
+.body_text2 {
+	font-weight: bold;
+	margin-top:30px;
+}
+
+.body_text2 > p.dky {
+	font-size: 50px;
+}
+
+.body_text2 > p.lmp {
+	margin-top:10px;
+	font-size: 27px;
+}
+
+.ho_ten {
+	margin-top:20px;
+}
+
+.ho_ten > input {
+	width: 305px;
+	height: 50px;
+	border:1.5px #DCDCDC solid;
+	border-radius: 6px;
+	font-size: 25px;
+	text-indent: 10px;
+}
+
+.email_mk > input {
+	margin-top:10px;
+	width: 617px;
+	height: 50px;
+	border:1.5px #DCDCDC solid;
+	border-radius: 6px;
+	font-size: 25px;
+	text-indent: 10px;
+}
+
+.ngay_sinh {
+	margin-top:20px;
+}
+
+.ngay_sinh > p.title {
+	font-size: 27px;
+	font-weight: bold;
+	font-family: arial;
+}
+
+.select {
+	margin-top:20px;
+}
+
+.select1 {
+	width: 100px;
+	height: 40px;
+	border-radius: 6px;
+	font-size: 23px;
+	float:left;
+
+}
+
+.select3 {
+	width: 100px;
+	height: 40px;
+	border-radius: 6px;
+	font-size: 23px;
+	float:left;
+	margin-left: 5px;
+}
+
+.select2 {
+	width: 130px;
+	height: 40px;
+	border-radius: 6px;
+	font-size: 23px;
+	float:left;
+	margin-left: 5px;
+}
+
+p.QA_ngaysinh > a {
+	text-decoration: none;
+	color:#3b5998;
+	font-weight: bold;
+	margin-left:10px;
+}
+
+.gioi_tinh {
+	margin-top: 20px;
+}
+
+.gioi_tinh > .gt_nam > input {
+	width: 25px;
+	height: 25px;
+	float:left;
+}
+
+.gioi_tinh > .gt_nu > input {
+	width: 25px;
+	height: 25px;
+	float:left;
+}
+
+.gt_nu {
+	float:left;
+	margin-left:30px;
+}
+
+.gioi_tinh > .gt_nam > p {
+	font-size: 27px;
+	font-weight: bold;
+	float:left;
+	margin-left:10px;
+}
+
+.gioi_tinh > .gt_nu > p {
+	font-size: 27px;
+	font-weight: bold;
+	float:left;
+	margin-left:10px;
+}
+
+p.dk_dky {
+	margin-top: 60px;
+	color:gray;
+	font-weight: bold;
+}
+
+p.dk_dky > a {
+	color:#3b5998;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+input.button_dky {
+	margin-top:20px;
+	width: 250px;
+	height: 60px;
+	background:linear-gradient(#67ae55, #578843);
+	background-color:#69a74e;
+	box-shadow:inset 0 0.5px 0.5px #a4e388;
+	border-color:#3b6e22 #3b6e22 #2c5115;
+	border-radius: 5px;
+	color:white;
+	font-size: 30px;
+	text-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+
+p.desc {
+	margin-top: 40px;
+	font-weight: bold;
+	font-size: 22px;
+	color:gray;
+}
+
+p.desc > a {
+	color:#3b5998;
+	font-weight: bold;
+	text-decoration: none;
+}
