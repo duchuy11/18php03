@@ -1,0 +1,148 @@
+#body {
+	width: auto;
+	height: 800px;
+	background:url(./images/content_background.jpg);
+	background-repeat: no-repeat;
+	background-position:center center;
+	background-size: 100% 1000px;
+}
+
+#body > .booking {
+	width: 1500px;
+	height: 130px;
+	margin: auto;
+}
+
+#body > .booking > .booking_title {
+	width: 12%;
+	height: 130px;
+	font-family: arial;
+	color:white;
+	float:left;
+	font-weight: bold;
+	background:#323b44;
+}
+
+#body > .booking > .booking_title > .booking_title {
+	margin-top:35px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:30px;
+	width: 149px;
+	height: 40px;
+	border-right:1px white solid;
+}
+
+#body > .booking > .booking_title > .booking_title > p.booking_title_text1 {
+	font-size: 15px;
+}
+
+#body > .booking > .booking_title > .booking_title > p.booking_title_text2 {
+	font-size: 30px;
+}
+
+#body > .booking > .booking_select {
+	width: 68%;
+	height: 130px;
+	background:#323b44;
+	float:left;
+	color: white;
+	font-family: arial;
+	font-size:14px;
+	font-weight: bold;
+	line-height: 50px;
+}
+
+#body > .booking > .booking_select > .booking_select_form {
+	width: 20%;
+	height: 130px;
+	background:#323b44;
+	float:left;
+}
+
+#body > .booking > .booking_submit {
+	width: 20%;
+	height: 130px;
+	background:#323b44;
+	float:left;
+}
+
+.booking_select_form1 {
+	margin-top: 45px;
+	margin-left: 50px;
+	width: 80%;
+	height: 50px;
+	border-bottom: 1px solid white;
+}
+
+p.booking_select_text {
+	float:left;
+}
+
+.booking_select_form1 > img {
+	padding-top: 15px;
+	padding-right: 10px;
+	float:right;
+}
+
+.booking_select_form1 > .booking_select_text1 {
+	padding-right: 10px;
+	float:right;
+	font-size: 20px;
+}
+
+.booking_submit > .booking_submit_button {
+	width: 50%;
+	height: 50px;
+	background:yellow;
+	line-height: 50px;
+	text-align: center;
+	font-weight: bold;
+	font-family: arial;
+	margin-left:100px;
+	margin-top:40px;
+	font-size: 25px;
+}
+
+.booking_submit_button > a {
+	text-decoration: none;
+	color:black;
+	display: block;
+}
+
+.booking_submit_button > a:hover {
+	font-size: 30px;
+}
+
+.body_text {
+	padding-top: 150px;
+	width: 1500px;
+	margin:auto;
+}
+
+.body_text1 {
+	font-size: 50px;
+}
+
+.body_button {
+	width: 200px;
+	height: 50px;
+	background:yellow;
+}
+
+.body_button > .button_border {
+	width: 180px;
+	height: 30px;
+	border:1px solid black;
+	position: relative;
+	left:10px;
+	top: 9px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.button_border > a {
+	text-decoration: none;
+	color:black;
+	display: block;
+}
