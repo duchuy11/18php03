@@ -1,0 +1,78 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+#football_players {
+	width: 500px;
+	height: 700px;
+	margin: auto;
+	margin-top:100px;
+	border:4px dashed black;
+	border-radius: 15px;
+}
+
+legend {
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+img#players_img {
+	margin-top:0px;
+	border-radius: 15px;
+	border:none;
+	opacity: 0;
+}
+
+.select_players {
+	width: 450px;
+	height: 175px;
+	margin:auto;
+	margin-top:25px;
+	background:none;
+}
+
+a#player1 , a#player2 , a#player3 , a#player4 {
+	width: 25%;
+	height: 175px;
+	background:red;
+	float:left;
+	text-decoration: none;
+	color:white;
+	font-weight: bold;
+	line-height: 300px;
+	text-align: center;
+	border-radius: 15px;
+}
+
+a#player1 {
+	background:url(./cr.jpg);
+	background-size: 114% 100%;
+}
+
+a#player2 {
+	background:url(./ms.jpg);
+	background-size: 207% 100%;
+	background-position-x:179px;
+}
+
+a#player3 {
+	background:url(./bk.jpg);
+	background-size: 100% 100%;
+	background-position-x:224px;
+}
+
+a#player4 {
+	background:url(./nm.jpg);
+	background-size: 250% 100%;
+	background-position-x:180px;
+}
+
+center#info > p {
+	position: absolute;
+}
+
+p#tip {
+	position: absolute;
+}

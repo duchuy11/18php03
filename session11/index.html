@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bai tap</title>
+		<link rel="stylesheet" type="text/css" href="css.css">
+		<script language="javascript">
+
+			function img_switch1() {
+			document.getElementById("players_img").style.opacity ="1";
+			document.getElementById("players_img").style.backgroundSize = "60px 120px";
+			document.getElementById("players_img").src = "cr_hover.jpg";
+			document.getElementById('player1').style.fontSize = '30px';
+			}
+
+			function img_switch2() {
+			document.getElementById("players_img").style.opacity ="1";
+			document.getElementById("players_img").src = "ms_hover.jpg";
+			document.getElementById('player2').style.fontSize = '30px';
+			}
+
+			function img_switch3() {
+			document.getElementById("players_img").style.opacity ="1";
+			document.getElementById("players_img").src = "bk_hover.jpg";
+			document.getElementById('player3').style.fontSize = '30px';
+			}
+
+			function img_switch4() {
+			document.getElementById("players_img").style.opacity ="1";
+			document.getElementById("players_img").src = "nm_hover.jpg";
+			document.getElementById('player4').style.fontSize = '30px';
+			}
+
+			function img_deselect() {
+			document.getElementById("players_img").style.opacity ="0";
+			document.getElementById('player1').style.fontSize = '';
+			document.getElementById('player2').style.fontSize = '';
+			document.getElementById('player3').style.fontSize = '';
+			document.getElementById('player4').style.fontSize = '';
+			}
+		</script>
+	</head>
+	<body>
+		<fieldset id="football_players">
+			<legend>CÁC CẦU THỦ ĐÁ BANH</legend>
+			<center><img id="players_img" width="450px" height="450px"></center>
+			<div class="select_players">
+				<a href="#" id ="player1" onmouseover="img_switch1();" onmouseout="img_deselect();">Ronaldo</a>
+				<a href="#" id ="player2" onmouseover="img_switch2();" onmouseout="img_deselect();">Messi</a>
+				<a href="#" id ="player3" onmouseover="img_switch3();" onmouseout="img_deselect();">Beckham</a>
+				<a href="#" id ="player4" onmouseover="img_switch4();" onmouseout="img_deselect();">Neymar</a>
+			</fieldset>
+		</div>
+	</body>
+</html>
