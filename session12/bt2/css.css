@@ -1,0 +1,68 @@
+* {
+	margin:0;
+	padding: 0;
+	animation-fill-mode: forwards;
+	animation-play-state: paused;
+}
+
+body {
+	width: 700px;
+	height: 170px;
+	border:2px black solid;
+	padding-top: 20px;
+	margin:auto;
+	margin-top: 50px;
+}
+
+#men {
+	float:left;	
+	position: absolute;
+	animation-name:men;
+	animation-duration:5s;
+}
+
+#flower {
+	position: absolute;
+	animation-name:flower;
+	animation-duration:5s;
+	margin-left: 325px;
+    margin-right: 325px;
+}
+
+#women {
+	float:right;
+	animation-name:women;
+	animation-duration:5s;
+}
+
+form {
+	width: 100px;
+	height: 50px;
+	padding-top: 100px;
+	margin:auto;
+}
+
+input {
+	width: 100px;
+	height: 50px;
+	font-size: 25px;
+	font-weight: bold;
+	float:left;
+}
+
+@keyframes men {
+	0% {}
+	100% {margin-left:250px;}
+}
+
+@keyframes flower {
+	0% {opacity: 0;}
+	80% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@keyframes women {
+	0% {}
+	100% {margin-right:250px;}
+}
+

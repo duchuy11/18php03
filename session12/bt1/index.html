@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>BAI TAP 1</title>
+		<link rel="stylesheet" type="text/css" href="css.css">
+	</head>
+
+	<body>
+		<div>
+			<img id="carLeft" src="car.png" width="100px" height="50px">
+			<img id="carRight" src="car.png" width="100px" height="50px">
+			<form>
+				<input type="button" value="LEFT" onclick="
+					document.getElementById('carLeft').style.animationPlayState='running';
+					document.getElementById('carRight').style.opacity='0'">
+				<input type="button" value="RIGHT" onclick="
+					document.getElementById('carRight').style.animationPlayState='running';
+					document.getElementById('carLeft').style.opacity='0';
+					document.getElementById('carRight').style.opacity='1'">
+			</form>
+		</div>
+	</body>
+</html>

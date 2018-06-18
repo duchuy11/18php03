@@ -1,0 +1,9 @@
+h1 {
+	text-align: center;
+	transition: 4s;
+}
+
+h1:hover {
+	font-size: 150px;
+	color:red;
+}
