@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>IF ELSE</title>
+	</head>
+	<script type="text/javascript">
+		for (var i = 0 ; i <= 100 ; i++) {
+			document.write("=========== " + i + " =========== <br>");
+			if (i % 15 == 0) {
+				document.write(i + '<b> Chia het cho 15</b> <br>');
+			} else {
+				if (i % 3 != 0 && i % 5 != 0 && i % 15 != 0) {
+					document.write(i + ' Khong chia het cho 3 , 5 , 15');
+					document.write("<br>");
+				} else {
+					if (i % 3 == 0) {
+						document.write(i + '<b> Chia het cho 3</b> <br>');
+					} else {
+						document.write(i + ' Khong chia het cho 3</b> <br>');
+					}
+					if (i % 5 == 0) {
+						document.write(i + '<b> Chia het cho 5</b> <br>');
+					} else {
+						document.write(i + ' Khong chia het cho 5 <br>');
+					}
+				}
+			}
+			document.write("<br>");
+		}
+	</script>
+	<body>
+	</body>
+</html>
