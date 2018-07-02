@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>	
+		<title></title>
+		<link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+	<form action="#" name="register" method="post">
+		<p>Name : <input id="name" type="text" name="name"><span id="error"></span></p>
+
+		<p>Email : <input id="email" type="text" name="email"><span id="error1"></span></p>
+
+		<p>Password : <input id="password" type="password" name="password"><span id="error2"></span></p>
+
+		<p>Gender : Nam <input id="radio" type="radio" name="gender">Nu<input id="radio" type="radio" name="gender"><span id="error3"></span></p>
+
+		<p>City : 
+			<select>
+				<option id="city">Select</option>
+				<option id="city" value="0">Ha Noi</option>
+				<option id="city" value="0">TP HCM<option>
+				<option id="city" value="0">Hue</option>
+				<option id="city" value="0">Da Nang</option>
+				<option id="city" value="0">Quang Nam</option>
+			</select><span id="error4"></span>
+		</p>
+		<input type="button" name="submit" value="Submit" onclick="checkValidate();">
+	</form>
+
+
+	<script type="text/javascript" src="js.js"></script>
+</html>
