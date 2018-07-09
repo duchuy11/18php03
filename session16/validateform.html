@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>VALIDATE FORM</title>
+		<script src="js.js"></script>
+		<style>
+			body {
+				text-align: center;
+			}
+
+			form {
+				margin-top: 100px;
+				padding-top: 30px;
+				width: 350px;
+				height: 350px;
+				border: 5px solid black;
+				margin:auto;
+			}
+
+			input {
+				text-align: center;
+			}
+
+			input#name , input#yob {
+				width: 265px;
+				height: 25px;
+				font-size: 20px;
+			}
+
+			input#register , input#delstorage {
+				margin-top:10px;
+			}
+		</style>
+	</head>
+	<body>
+
+		
+
+		<form id='form'>
+			<h1>REGISTER FORM</h1>
+			<input id="name" type="text" placeholder="Input your name">
+			<p>Male
+			<input id="male" type="radio" name="gender" onclick="genderMale()">
+			Female
+			<input id="female" type="radio" name="gender" onclick="genderFemale()">
+			</p>
+			<input id="yob" type="text" placeholder="Input your year of birth">
+			<br>
+			<br>
+			<select>
+				<option>Select</option>
+				<option id="HN">Ha Noi</option>
+				<option id="H">Hue</option>
+				<option id="DN">Da Nang</option>
+				<option id="TN">Tay Nguyen</option>
+				<option id="SG">TPHCM</option>
+			</select>
+
+			<p><input type="button" value="REGISTER" onclick="register()"></p>
+
+			<p><input type="button" value="DELETE STORAGE" onclick="deleteStorage()"></p>
+		</form>	
+
+	</body>
+</html>
