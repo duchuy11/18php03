@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>javascript slide</title>
+		<style>
+			body {
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+
+		<img id="img" width="500px" height="250px">
+
+		<div>
+			<input id="previous" type="button" value="Previous" onclick="previous()">
+			<input id="next" type="button" value="Next" onclick="next()">
+		</div>
+
+		<script>
+
+			var i = 0;
+
+			var imgList = ["1.jpg","2.jpg","3.jpg"];
+
+			function previous() {
+
+				console.log(i);
+
+				document.getElementById('img').src = imgList[i];
+
+				i--;
+				
+				if (i == -1) {
+					i = 1 + 1;
+				}
+			}
+
+			function next() {
+
+				console.log(i);
+
+				document.getElementById('img').src = imgList[i];
+
+				i++;
+
+				if (i == 3) {
+					i = 0;
+				}
+			}
+
+		</script>
+	</body>
+</html>
